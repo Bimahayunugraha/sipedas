@@ -1,0 +1,85 @@
+import { TArchive } from "@/types/archive-type";
+
+export const masaAktifRules = [
+  {
+    prefix: "470",
+    ruang: "TU",
+    masaAktifTahun: 2,
+  },
+  {
+    prefix: "HK.02.02",
+    ruang: "Keuangan",
+    masaAktifTahun: 5,
+  },
+  { prefix: "4O0.7", ruang: null, masaAktifTahun: 5 },
+  // Tambahkan aturan lainnya di sini
+];
+
+export const dummyData: TArchive[] = [
+  {
+    id: "LjEeYDReXCmp",
+    nomor: "470/157/401.301.8/2025",
+    tgl: new Date("2025-04-17"),
+    jenis: "Perizinan",
+    tgl_berlaku: new Date("2025-04-17"),
+    tgl_berakhir: new Date("2025-04-30"),
+    hal: "Surat Keterangan Domisili untuk kelengkapan kepengurusan pelat nomor kendaraan dinas roda 4",
+    nama: "Dian",
+    ruang: "TU",
+  },
+  {
+    id: "raZvAFjq1Uqd",
+    nomor: "4O0.7/13786/102.9/2025",
+    tgl: new Date("2025-04-16"),
+    jenis: "Regulasi",
+    tgl_berlaku: new Date("2025-04-16"),
+    tgl_berakhir: new Date("2025-04-16"),
+    hal: "Permohonan Perpanjangan STNKB Khusus / Rahasia (ZZH) untuk L97",
+    nama: "Dian",
+    ruang: null,
+  },
+  {
+    id: "4dibABi23wqV",
+    nomor: "HK.02.02/F/1486/2025",
+    tgl: new Date("2025-03-25"),
+    jenis: "Perizinan",
+    tgl_berlaku: new Date("2025-03-25"),
+    tgl_berakhir: new Date("2030-03-25"),
+    hal: "AKREDITASI RUMAH SAKIT UMUM DAERAH dr. SOEDONO PROVINSI JAWA TIMUR SEBAGAI LEMBAGA PENYELENGGARA PELATIHAN BIDANG KESEHATAN",
+    nama: "Dian",
+    ruang: null,
+  },
+  {
+    id: "FClbU9qpyb8v",
+    nomor: "100.3/836/013.1/2025",
+    tgl: new Date("05-03-2025"),
+    jenis: "Regulasi",
+    tgl_berlaku: new Date("05-03-2025"),
+    tgl_berakhir: new Date("05-03-2025"),
+    hal: ";PENETAPAN KEPALA PERANGKAT DAERAH YANG DIUSULKAN SEBAGAI KEPUTUSAN GUBERNUR YANG PENANDATANGANNYA DILAKUKAN OLEH KEPALA PERANGKAT DAERAH",
+    nama: "Dian",
+    ruang: null,
+  },
+  {
+    id: "P4UZU6H8MqbI",
+    nomor: "-",
+    tgl: new Date("03-03-2025"),
+    jenis: "Berita Acara",
+    tgl_berlaku: new Date("2025-02-28"),
+    tgl_berakhir: new Date("2025-12-31"),
+    hal: "Pakta Integritas KPA, PPK dan PPTK tentang Pengadaan Barang Jasa",
+    nama: "Dian",
+    ruang: null,
+  },
+  {
+    id: "cn9yv1qqVIP5",
+    nomor: "HK.02.02/F/1486/2025",
+    tgl: new Date("2025-03-25"),
+    jenis: "Perizinan",
+    tgl_berlaku: new Date("2025-03-25"),
+    tgl_berakhir: new Date("2030-03-25"),
+    hal: "AKREDITASI RUMAH SAKIT UMUM DAERAH dr. SOEDONO PROVINSI JAWA TIMUR SEBAGAI LEMBAGA PENYELENGGARA PELATIHAN BIDANG KESEHATAN",
+    nama: "Dian",
+    ruang: null,
+  },
+] as const;

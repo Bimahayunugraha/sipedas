@@ -1,0 +1,1 @@
+ALTER TABLE "surat_arsip_vital" ALTER COLUMN "tgl_berakhir" DROP NOT NULL;
